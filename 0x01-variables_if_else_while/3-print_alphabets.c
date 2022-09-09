@@ -16,7 +16,8 @@ putchar (ch);
 }
 for (ch1 = 'A'; ch <= 'Z'; ch++)
 {
-putchar (ch);
+putchar (ch1);
 }
 putchar ('\n');
+return (0);
 }
