@@ -7,8 +7,6 @@ int main(void)
 {
 int var;
 for (var = '0'; var < 10; var++)
-printf("%d", var);
-printf('\n');
-
+printf("%d\n", var);
 return (0);
 }
