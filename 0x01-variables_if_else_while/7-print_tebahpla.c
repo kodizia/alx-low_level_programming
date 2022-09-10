@@ -6,10 +6,11 @@
 int main(void)
 {
 int var;
+int var1 = 'z';
 var = 'a';
-while (var <= 'z')
+while (var <= var1)
 {
-z--;
+var1--;
 putchar(var);
 }
 
