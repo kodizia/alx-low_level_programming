@@ -6,14 +6,10 @@
 int main(void)
 {
 int var;
-int var1 = 'z';
-var = 'a';
-while (var <= var1)
+for (var = 'a'; var <= 'z'; var--)
 {
-var1--;
 putchar(var);
 }
-
 putchar('\n');
 return (0);
 }
