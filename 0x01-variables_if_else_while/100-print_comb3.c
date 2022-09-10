@@ -19,7 +19,7 @@ putchar((ii % 10) + '0');
 if (var != 8)
 {
 putchar(',');
-putchar(',');
+putchar(' ');
 }
 else
 continue;
