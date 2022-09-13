@@ -12,7 +12,7 @@ result = -1 * (var % 10);
 else
 result = var % 10;
 
-_putchar ((result) + '0');
+_putchar ((result) +'0');
 
 return (result);
 }
