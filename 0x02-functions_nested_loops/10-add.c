@@ -5,7 +5,7 @@
  *@var2: second int to be added
  *Return: the sum of two integer
  */
-int add(var1, var2)
+int add(int var1, int var2)
 {
 int result;
 result = var1 + var2;
