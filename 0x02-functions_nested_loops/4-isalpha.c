@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ *_isalpha- check for alphabetic character
+ * @c - character to be checked
+ * Return:0
+ */
+int _isalpha(int c)
+{
+int lower = (c >= 'a' && c<= 'z');
+int upper = (c >= 'A' && c <= 'A');
+if(lower || upper)
+return (1);
+else
+return (0);
+}
