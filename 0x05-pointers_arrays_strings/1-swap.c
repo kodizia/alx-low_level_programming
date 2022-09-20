@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * swap_int - function that swaps two integers
  *@a:pointer to the fist variable
