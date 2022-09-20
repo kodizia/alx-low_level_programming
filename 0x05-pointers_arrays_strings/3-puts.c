@@ -2,7 +2,8 @@
 #include <stdio.h>
 /**
  * _puts - function that prints a string followed by a new line
- * @p: character string
+ * @str: character string
+ *
  */
 void _puts(char *str)
 {
