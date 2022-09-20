@@ -11,9 +11,9 @@ int k = 0;
 char tmp;
 while (i > k)
 {
-tmp = str[i];
-str[i] = str[k];
-str[k] = tmp;
+tmp = s[i];
+s[i] = s[k];
+s[k] = tmp;
 i--;
 k++;
 }
