@@ -1,18 +1,21 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
+
 /**
- *print_array - a function that prints n elements of an array of integers
- * @a:array to be printed
- * @n:number of element to be printed
+ * print_array - prints the items in an array
+ * @a: array to be printed
+ * @n: number of element to print
+ *
  */
+
 void print_array(int *a, int n)
 {
-int i;
-for (i = 0; i < n; i++)
+int j;
+for (j = 0; j < n; j++)
 {
-printf("%d", a[i]);
-if (i < n - 1)
-printf(", ");
+printf("%d", a[j]);
+if (j < n - 1)
+printf(",");
 }
-_putchar('\n');
+putchar('\n');
 }
