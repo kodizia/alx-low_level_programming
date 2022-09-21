@@ -16,6 +16,6 @@ _putchar(s[p]);
 }
 else
 for (p = (len / 2) + 1; p < len; p++)
-_putchar(s[i]);
+_putchar(s[p]);
 _putchar('\n');
 }
