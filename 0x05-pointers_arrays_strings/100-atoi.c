@@ -9,8 +9,7 @@
  *
  * Return: converted string
  *
- * Created by: Sanctus-Peter
- * cc: 12th july, 2022.
+ *
  */
 
 int _atoi(char *s)
@@ -18,7 +17,7 @@ int _atoi(char *s)
 int sign = 1, base = 0, i = 0;
 
 for (i = 0; s[i] != '\0' && (s[i] < '0' || s[i] > '9'); i++)
-{
+	{
 if (s[i] == '-' || s[i] == '+')
 sign *= 1 - 2 * (s[i] == '-');
 if (s[i + 1] == '\0')
@@ -32,7 +31,7 @@ if (base > INT_MAX / 10	|| (base == INT_MAX / 10
 if (sign == 1)
 return (INT_MAX);
 else
-eturn (INT_MIN);
+return (INT_MIN);
 }
 base = 10 * base + (s[i++] - '0');
 }
