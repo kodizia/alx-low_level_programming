@@ -1,4 +1,4 @@
-#include <string.h>
+#include <stdlib.h>
 #include "main.h"
 /**
  * reverse_array- a function that reverses the strings in an array
