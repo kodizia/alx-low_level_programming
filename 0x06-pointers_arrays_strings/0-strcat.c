@@ -4,10 +4,10 @@
 *_strcat -  function that concatenates two strings.
 *@dest: pointer variable
 *@src: pointer variable
-*Return: dest
+*Return: pointer to string
 */
 char *_strcat(char *dest, char *src)
 {
-_strcat(dest, src);
+strcat(dest, src);
 return (dest);
 }
