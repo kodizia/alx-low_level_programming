@@ -1,17 +1,18 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+
 /**
- * reverse_array- a function that reverses the strings in an array
- * @a: pointer to array
- * @n: size of array
+ * reverse_array - function to reverse an integer
+ * @arr: pointer to an array of integer
+ * @n: size of arr
+ *
  */
-void reverse_array(int *a, int n)
+void reverse_array(int *arr, int n)
 {
-int *tmp = (int *) malloc(sizeof(int));
-int j;
-int k;
-for (j = 0; j < n; j++)
-tmp[j] = a[j];
-for (j = n - 1, k = 0 ; j >= 0; k--, j++)
-a[k] = tmp[j];
+int *tmp = (int *)malloc(n * sizeof(int));
+int i, j;
+for (i = 0; i < n; i++)
+tmp[i] = arr[i];
+for (i = n - 1, j = 0; i >= 0; i--, j++)
+arr[j] = tmp[i];
 }
