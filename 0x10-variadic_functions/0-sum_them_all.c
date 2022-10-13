@@ -1,12 +1,10 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
-
 /**
  * sum_them_all - sum all the variable passed to a function
  * @n: the first integer passed
  * Return: the sum of the variable
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 unsigned int i;
