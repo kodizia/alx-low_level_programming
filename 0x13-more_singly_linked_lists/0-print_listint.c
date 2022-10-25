@@ -2,9 +2,8 @@
 /**
  * print_listint - prints all the elements of a linked list
  * @h: head of the list
- * author: christian joshua
- * date: 24-10-2011
- * Return: number of node
+ *
+ * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
