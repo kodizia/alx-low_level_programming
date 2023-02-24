@@ -12,7 +12,7 @@ int main(void)
 {
     dlistint_t *head;
     dlistint_t *new;
-    dlistint_t hello = {8, NULL, NULL};
+    dlistint_t hello = {9, NULL, NULL};
     size_t n;
 
     head = &hello;
@@ -22,7 +22,7 @@ int main(void)
         dprintf(2, "Error: Can't malloc\n");
         return (EXIT_FAILURE);
     }
-    new->n = 9;
+    new->n = 10;
     head->prev = new;
     new->next = head;
     new->prev = NULL;
