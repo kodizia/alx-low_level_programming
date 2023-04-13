@@ -1,0 +1,1 @@
+SOLUTIONS ON 0x1E-search_algorithms TASKS
